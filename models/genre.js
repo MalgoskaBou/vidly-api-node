@@ -1,4 +1,4 @@
-const Joi = require('joi');
+const Joi = require('@hapi/joi');
 const mongoose = require('mongoose');
 
 const genreSchema = new mongoose.Schema({
@@ -21,5 +21,5 @@ function validateGenre(genre) {
 }
 
 exports.genreSchema = genreSchema;
-exports.Genre = Genre; 
+exports.Genre = Genre;
 exports.validate = validateGenre;
