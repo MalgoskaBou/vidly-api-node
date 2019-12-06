@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey": "unsecureKey",
-  "db":  "TU WKLEIĆ ADRES BAZY DANYCH",
+  "db": "mongodb+srv://cinemaUser:cinema@cinemaapp-rx1q7.mongodb.net/test?retryWrites=true&w=majority",
   "port": "3900",
   "requiresAuth": false
 }
